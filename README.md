@@ -17,31 +17,31 @@ The *HuGE* algorithm learns continuous representations for nodes in any (un)dire
 - gensim
 - multiprocessing
 
-### Basic Usage
+## Basic Usage
 
-#### Example
+### Example
 To run *HuGE* on the example graphs, execute the following command from the project home directory:<br/>
-##### Preprocessing
+#### Preprocessing
 Executing the preprocessing operation for generating the common neighbors of the input graoph and then loading to the main function.<br/>
-    ``python src/common_neighbor_preprocess.py --input ../graph/CA-AstroPh.txt --output ../pre_data/CA-AstroPh_comneig.txt``
-##### Trainging    
+    ``python src/common_neighbor_preprocess.py --input ../graph/CA-AstroPh.txt --output ../pre_data/CA-AstroPh_comneig.txt`` 
+#### Trainging    
 Training on the existing graphs and generating the embeddings. <br/>
     ``python src/main.py --input ../graph/CA-AstroPh.txt --comnb ../pre_data/CA-AstroPh_comneig.txt --output ../emb/CA-AstroPh.emb``
 
-#### Options
+### Options
 You can check out the other options available to use with *HuGE* using:<br/>
 	``python src/main.py --help``
 
-#### Input
+### Input
 The supported input format is an edgelist:
 		
 The graph is assumed to be undirected and unweighted by default. These options can be changed by setting the appropriate flags.
 
-#### Output
+### Output
 The output file has *n+1* lines for a graph with *n* vertices. 
 The first line has the following format:
 
-	num_of_nodes dim_of_representation
+	number of nodes   dimensions of representation
 
 The next *n* lines are as follows:
 	
@@ -49,7 +49,7 @@ The next *n* lines are as follows:
 
 where dim1, ... , dimd is the *d*-dimensional representation learned by *HuGE*.
 
-### Citing
+## Citing
 If you find *HuGE* useful for your research, please consider citing the following paper:
 
 	@inproceedings{HuGE-ICDE2021,
@@ -60,9 +60,8 @@ If you find *HuGE* useful for your research, please consider citing the followin
 	}
 
 
-### Miscellaneous
+## Miscellaneous
 
 Please send any questions you might have about the code and/or the algorithm to <fangpeng@hust.edu.cn> or feel free to open an issue.
 
 *Note:* This is only a reference implementation of the *HuGE* algorithm and could benefit from several performance enhancement schemes, some of which are discussed in the paper.
-
