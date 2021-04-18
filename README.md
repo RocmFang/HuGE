@@ -51,9 +51,9 @@ where dim1, ... , dimd is the *d*-dimensional representation learned by *HuGE*.
 If you find *HuGE* useful for your research, please consider citing the following paper:
 
 	@inproceedings{HuGE-ICDE2021,
-	author = {Peng Fang, Fang Wangy, Zhan Shi, Hong Jiang, Dan Feng, and Lei Yang},
+	author = {Peng Fang, Fang Wang, Zhan Shi, Hong Jiang, Dan Feng, and Lei Yang},
 	 title = {HuGE: An Entropy-driven Approach to Efficient and Scalable Graph Embeddings},
-	 booktitle = {Proceedings of the 37th IEEE International Conference on Data Engineering},
+	 booktitle = {Proceedings of the 37th IEEE International Conference on Data Engineering, {ICDE 2021}},
 	 year = {2021}
 	}
 
