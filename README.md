@@ -20,7 +20,7 @@ The *HuGE* algorithm learns continuous representations for nodes in any (un)dire
 
 #### Example
 To run *HuGE* on the example graphs, execute the following command from the project home directory:<br/>
-## PreprocessING
+## Preprocessing
 Executing the preprocessing operation for generating the common neighbors of the input graoph and then loading to the main function.<br/>
     ``python src/common_neighbor_preprocess.py --input ../graph/CA-AstroPh.txt --output ../pre_data/CA-AstroPh_comneig.txt``
 ## Trainging    
