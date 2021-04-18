@@ -9,7 +9,7 @@ Accepted to [37th IEEE International Conference on Data Engineering, 2021.](http
 
 ## Prerequisites
 
-- Linux or macOS
+- Linux
 - Python 2 or 3
 - networkx
 - gensim
