@@ -1,10 +1,11 @@
 # HuGE
 
 This repository provides a reference implementation of *HuGE* as described in the paper:<br>
-> HuGE: An Entropy-driven Approach to Efficient and Scalable Graph Embeddings.<br>
-> Peng Fang, Fang Wangy, Zhan Shi, Hong Jiang, Dan Feng, and Lei Yang <br>
-> 37th IEEE International Conference on Data Engineering, 2021.<br>
-> <Insert paper link>
+
+HuGE: An Entropy-driven Approach to Efficient and Scalable Graph Embeddings.<br>
+Peng Fang, Fang Wangy, Zhan Shi, Hong Jiang, Dan Feng, and Lei Yang <br>
+37th IEEE International Conference on Data Engineering, 2021.<br>
+<icde2021.gr>
 
 The *HuGE* algorithm learns continuous representations for nodes in any (un)directed, (un)weighted graph. 
 
@@ -54,13 +55,14 @@ If you find *HuGE* useful for your research, please consider citing the followin
 	@inproceedings{HuGE-ICDE2021,
 	author = {Peng Fang, Fang Wangy, Zhan Shi, Hong Jiang, Dan Feng, and Lei Yang},
 	 title = {HuGE: An Entropy-driven Approach to Efficient and Scalable Graph Embeddings},
-	 booktitle = {Proceedings of the 37th 37th IEEE International Conference on Data Engineering},
+	 booktitle = {Proceedings of the 37th IEEE International Conference on Data Engineering},
 	 year = {2021}
 	}
 
 
 ### Miscellaneous
 
-Please send any questions you might have about the code and/or the algorithm to <fangpeng@hust.edu.cn>.
+Please send any questions you might have about the code and/or the algorithm to <fangpeng@hust.edu.cn> or feel free to open an issue.
 
 *Note:* This is only a reference implementation of the *HuGE* algorithm and could benefit from several performance enhancement schemes, some of which are discussed in the paper.
+
