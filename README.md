@@ -7,8 +7,6 @@ Peng Fang, Fang Wangy, Zhan Shi, Hong Jiang, Dan Feng, and Lei Yang <br>
 Accepted to [37th IEEE International Conference on Data Engineering, 2021.](https://icde2021.gr) <br>
 
 
-The *HuGE* algorithm learns continuous representations for nodes in any (un)directed, (un)weighted graph. 
-
 ## Prerequisites
 
 - Linux or macOS
