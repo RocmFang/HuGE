@@ -2,11 +2,11 @@
 
 ### [Paper]###(https://www.ijcai.org/proceedings/2019/594)
 
-HuGE: An Entropy-driven Approach to Efficient and Scalable Graph Embeddings
-
-Jie Zhang, [Yuxiao Dong](https://ericdongyx.github.io/), Yan Wang, [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/) and Ming Ding
-
-Accepted to IJCAI 2019 Research Track!
+This repository provides a reference implementation of *node2vec* as described in the paper:<br>
+> node2vec: Scalable Feature Learning for Networks.<br>
+> Aditya Grover and Jure Leskovec.<br>
+> Knowledge Discovery and Data Mining, 2016.<br>
+> <Insert paper link>
 
 ## Prerequisites
 
