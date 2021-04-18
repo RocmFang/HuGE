@@ -1,8 +1,8 @@
-# ProNE
+# HuGE
 
-### [Paper](https://www.ijcai.org/proceedings/2019/594)
+### [Paper]###(https://www.ijcai.org/proceedings/2019/594)
 
-ProNE: Fast and Scalable Network Representation Learning
+HuGE: An Entropy-driven Approach to Efficient and Scalable Graph Embeddings
 
 Jie Zhang, [Yuxiao Dong](https://ericdongyx.github.io/), Yan Wang, [Jie Tang](http://keg.cs.tsinghua.edu.cn/jietang/) and Ming Ding
 
