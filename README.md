@@ -1,12 +1,13 @@
 # HuGE
 
-### [Paper]###(https://www.ijcai.org/proceedings/2019/594)
-
-This repository provides a reference implementation of *node2vec* as described in the paper:<br>
-> node2vec: Scalable Feature Learning for Networks.<br>
-> Aditya Grover and Jure Leskovec.<br>
-> Knowledge Discovery and Data Mining, 2016.<br>
+### [Paper]
+This repository provides a reference implementation of *HuGE* as described in the paper:<br>
+> HuGE: An Entropy-driven Approach to Efficient and Scalable Graph Embeddings.<br>
+> Peng Fang, Fang Wangy, Zhan Shi, Hong Jiang, Dan Feng, and Lei Yang <br>
+> 37th IEEE International Conference on Data Engineering, 2021.<br>
 > <Insert paper link>
+
+
 
 ## Prerequisites
 
