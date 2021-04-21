@@ -22,11 +22,11 @@ To run *HuGE* on the example graphs, execute the following command from the proj
 
 #### Preprocessing
 Executing the preprocessing operation to compute the common neighbors for each pair-node in the graph.<br/>
-    ``python src/common_neighbor_preprocess.py --input ../graph/CA-AstroPh.txt --output ../pre_data/CA-AstroPh_comneig.txt`` 
+    ``python src/common_neighbor_preprocess.py --input ./graph/CA-AstroPh.txt --output ./pre_data/CA-AstroPh_comneig.txt`` 
 	
 #### Trainging    
 Training on the existing graphs and generating the embeddings. <br/>
-    ``python src/main.py --input ../graph/CA-AstroPh.txt --comnb ../pre_data/CA-AstroPh_comneig.txt --output ../emb/CA-AstroPh.emb``
+    ``python src/main.py --input ./graph/CA-AstroPh.txt --comnb ./pre_data/CA-AstroPh_comneig.txt --output ./emb/CA-AstroPh.emb``
 
 ### Options
 You can check out the other options available to use with *HuGE* using:<br/>
