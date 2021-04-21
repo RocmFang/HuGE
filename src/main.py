@@ -1,6 +1,6 @@
 import argparse
 import networkx as nx
-import HuGE_pel as huge
+import HuGE as huge
 from gensim.models import Word2Vec
 import time
 
