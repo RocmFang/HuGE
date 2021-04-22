@@ -26,10 +26,11 @@ Executing the preprocessing operation to compute the common neighbors for each p
 	
 #### Trainging    
 Training on the existing graphs and generating the embeddings. <br/>
--single thread version
+- single thread version<br/>
     ``python src/main.py --input ./graph/CA-AstroPh.txt --comnb ./pre_data/CA-AstroPh_comneig.txt --output ./emb/CA-AstroPh.emb``
--parallel version
+- parallel version<br/>
      ``python src-p/main_pel.py --input ./graph/CA-AstroPh.txt --comnb ./pre_data/CA-AstroPh_comneig.txt --output ./emb/CA-AstroPh.emb``
+     
 ### Options
 You can check out the other options available to use with *HuGE* using:<br/>
 	``python src/main.py --help``
