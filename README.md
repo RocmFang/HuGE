@@ -26,9 +26,9 @@ Executing the preprocessing operation to compute the common neighbors for each p
 	
 #### Trainging    
 Training on the existing graphs and generating the embeddings. <br/>
-- single thread version<br/>
+- Single thread version<br/>
     ``python src/main.py --input ./graph/CA-AstroPh.txt --comnb ./pre_data/CA-AstroPh_comneig.txt --output ./emb/CA-AstroPh.emb``
-- parallel version<br/>
+- Parallel version<br/>
      ``python src-p/main_pel.py --input ./graph/CA-AstroPh.txt --comnb ./pre_data/CA-AstroPh_comneig.txt --output ./emb/CA-AstroPh.emb``
      
 ### Options
