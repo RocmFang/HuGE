@@ -118,16 +118,16 @@ class Graph():
 
         if p_norm > p:
             walk.append(dst)
-            ent, obj = self.entropy_walk_uodate(obj, dst, None)
+            ent, obj = self.entropy_walk_update(obj, dst, None)
         else:
             walk.append(dst)
             walk.append(cur)
-            ent, obj = self.entropy_walk_uodate(obj, dst, cur)
+            ent, obj = self.entropy_walk_update(obj, dst, cur)
 
         return walk, ent, obj
 
 
-    def entropy_walk_uodate(self, obj, vertex1, vertex2):
+    def entropy_walk_update(self, obj, vertex1, vertex2):
 
         if vertex2 is None:
 
