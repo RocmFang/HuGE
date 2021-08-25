@@ -112,7 +112,7 @@ class Graph():
 
         p = random.random()
 
-        p_acp = (1 / float(src_deg - ncn) * (float(max(src_deg, dst_deg)) / min(src_deg, dst_deg)))
+        p_acp = (1 / float(src_deg - ncn)) * (float(max(src_deg, dst_deg)) / min(src_deg, dst_deg))
 
         p_norm = np.tanh(p_acp)
 
