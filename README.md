@@ -1,8 +1,8 @@
 # HuGE
 
-This repository provides a reference implementation of *HuGE* as described in the paper:<br>
+This repository provides a reference implementation of *HuGE* as described in the [paper](https://ieeexplore.ieee.org/abstract/document/9458787) :<br>
 
-HuGE: An Entropy-driven Approach to Efficient and Scalable Graph Embeddings. [paper](https://ieeexplore.ieee.org/abstract/document/9458787) <br>
+HuGE: An Entropy-driven Approach to Efficient and Scalable Graph Embeddings. <br>
 Peng Fang, Fang Wang, Zhan Shi, Hong Jiang, Dan Feng, and Lei Yang <br>
 Accepted to [37th IEEE International Conference on Data Engineering, 2021.](https://icde2021.gr)  <br>
 
